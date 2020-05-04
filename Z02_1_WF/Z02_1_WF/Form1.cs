@@ -15,7 +15,7 @@ namespace Z02_1_WF
         public Form1()
         {
             InitializeComponent();
-            Image imgfield = Image.FromFile(@"D:\Колледж\ПП ПМ01\Z02_1_WF\Z02_1_WF\Field.jpg");
+            Image imgfield = Image.FromFile(@"D:\College\PP_PM01\Z02_1_WF\Z02_1_WF\Field.jpg");
             pictureBoxField.Image = imgfield;
             pictureBoxField.SizeMode = PictureBoxSizeMode.StretchImage;
         }

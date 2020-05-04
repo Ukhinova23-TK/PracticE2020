@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Z02_1
 {
@@ -13,10 +9,19 @@ namespace Z02_1
             try
             {
                 double x, y;
-                Console.Write("Введите координату x: ");
-                x = Convert.ToDouble(Console.ReadLine());
-                Console.Write("Введите координату y: ");
-                y = Convert.ToDouble(Console.ReadLine());
+                try
+                {
+                    Console.Write("Введите координату x: ");
+                    x = Convert.ToDouble(Console.ReadLine());
+                    Console.Write("Введите координату y: ");
+                    y = Convert.ToDouble(Console.ReadLine());
+                }
+                catch
+                {
+                    Console.WriteLine("Неверные данные");
+                    Console.ReadKey();
+                    return;
+                }
                 if (x > 40 || x < -40 || y > 40 || y < -40)
                 {
                     Console.WriteLine("Точка находится в области");
@@ -33,7 +38,7 @@ namespace Z02_1
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex);
+                Console.WriteLine(ex.Message);
                 Console.ReadKey();
             }
         }
