@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Z01_2_02__5_2020.Properties
+namespace Z01_2_WF_02_05_2020.Properties
 {
 
 
@@ -44,7 +44,7 @@ namespace Z01_2_02__5_2020.Properties
             {
                 if ((resourceMan == null))
                 {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Z01_2_02__5_2020.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Z01_2_WF_02_05_2020.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

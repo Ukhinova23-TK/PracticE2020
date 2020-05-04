@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{165EF019-041C-4192-8286-94ECDFA2D45E}</ProjectGuid>
+    <ProjectGuid>{93C6DEF0-81E4-4E83-8FC5-498F1376DFEE}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Z01_2_02__5_2020</RootNamespace>
-    <AssemblyName>Z01_2_02_-5_2020</AssemblyName>
+    <RootNamespace>Z01_2_WF_02_05_2020</RootNamespace>
+    <AssemblyName>Z01_2_WF_02_05_2020</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

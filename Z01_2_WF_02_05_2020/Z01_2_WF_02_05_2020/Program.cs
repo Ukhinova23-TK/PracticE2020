@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Z01_2_02__5_2020
+namespace Z01_2_WF_02_05_2020
 {
     static class Program
     {
@@ -14,9 +14,16 @@ namespace Z01_2_02__5_2020
         [STAThread]
         static void Main()
         {
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            try
+            {
+                Application.EnableVisualStyles();
+                Application.SetCompatibleTextRenderingDefault(false);
+                Application.Run(new Form1());
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show(text: ex.Message);
+            }
         }
     }
 }

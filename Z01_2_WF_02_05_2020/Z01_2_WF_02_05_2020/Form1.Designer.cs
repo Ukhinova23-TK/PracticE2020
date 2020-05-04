@@ -32,8 +32,8 @@
             this.labelNum = new System.Windows.Forms.Label();
             this.numericUpDownKrat = new System.Windows.Forms.NumericUpDown();
             this.numericUpDownNum = new System.Windows.Forms.NumericUpDown();
-            this.textBoxAnswer = new System.Windows.Forms.TextBox();
             this.button = new System.Windows.Forms.Button();
+            this.textBox = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownKrat)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownNum)).BeginInit();
             this.SuspendLayout();
@@ -41,7 +41,7 @@
             // labelKrat
             // 
             this.labelKrat.AutoSize = true;
-            this.labelKrat.Location = new System.Drawing.Point(33, 40);
+            this.labelKrat.Location = new System.Drawing.Point(16, 15);
             this.labelKrat.Name = "labelKrat";
             this.labelKrat.Size = new System.Drawing.Size(63, 13);
             this.labelKrat.TabIndex = 0;
@@ -50,7 +50,7 @@
             // labelNum
             // 
             this.labelNum.AutoSize = true;
-            this.labelNum.Location = new System.Drawing.Point(33, 76);
+            this.labelNum.Location = new System.Drawing.Point(16, 45);
             this.labelNum.Name = "labelNum";
             this.labelNum.Size = new System.Drawing.Size(42, 13);
             this.labelNum.TabIndex = 1;
@@ -58,12 +58,12 @@
             // 
             // numericUpDownKrat
             // 
-            this.numericUpDownKrat.Location = new System.Drawing.Point(114, 38);
+            this.numericUpDownKrat.Location = new System.Drawing.Point(95, 13);
             this.numericUpDownKrat.Minimum = new decimal(new int[] {
-            1,
+            100,
             0,
             0,
-            0});
+            -2147483648});
             this.numericUpDownKrat.Name = "numericUpDownKrat";
             this.numericUpDownKrat.Size = new System.Drawing.Size(120, 20);
             this.numericUpDownKrat.TabIndex = 2;
@@ -75,17 +75,17 @@
             // 
             // numericUpDownNum
             // 
-            this.numericUpDownNum.Location = new System.Drawing.Point(114, 74);
+            this.numericUpDownNum.Location = new System.Drawing.Point(95, 45);
             this.numericUpDownNum.Maximum = new decimal(new int[] {
             99,
             0,
             0,
             0});
             this.numericUpDownNum.Minimum = new decimal(new int[] {
-            10,
+            99,
             0,
             0,
-            0});
+            -2147483648});
             this.numericUpDownNum.Name = "numericUpDownNum";
             this.numericUpDownNum.Size = new System.Drawing.Size(120, 20);
             this.numericUpDownNum.TabIndex = 3;
@@ -95,32 +95,32 @@
             0,
             0});
             // 
-            // textBoxAnswer
-            // 
-            this.textBoxAnswer.Location = new System.Drawing.Point(36, 150);
-            this.textBoxAnswer.Multiline = true;
-            this.textBoxAnswer.Name = "textBoxAnswer";
-            this.textBoxAnswer.ReadOnly = true;
-            this.textBoxAnswer.Size = new System.Drawing.Size(198, 39);
-            this.textBoxAnswer.TabIndex = 4;
-            // 
             // button
             // 
-            this.button.Location = new System.Drawing.Point(159, 109);
+            this.button.Location = new System.Drawing.Point(140, 80);
             this.button.Name = "button";
             this.button.Size = new System.Drawing.Size(75, 23);
-            this.button.TabIndex = 5;
+            this.button.TabIndex = 4;
             this.button.Text = "Узнать!";
             this.button.UseVisualStyleBackColor = true;
             this.button.Click += new System.EventHandler(this.button_Click);
+            // 
+            // textBox
+            // 
+            this.textBox.Location = new System.Drawing.Point(19, 120);
+            this.textBox.Multiline = true;
+            this.textBox.Name = "textBox";
+            this.textBox.ReadOnly = true;
+            this.textBox.Size = new System.Drawing.Size(196, 48);
+            this.textBox.TabIndex = 5;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(256, 210);
+            this.ClientSize = new System.Drawing.Size(230, 180);
+            this.Controls.Add(this.textBox);
             this.Controls.Add(this.button);
-            this.Controls.Add(this.textBoxAnswer);
             this.Controls.Add(this.numericUpDownNum);
             this.Controls.Add(this.numericUpDownKrat);
             this.Controls.Add(this.labelNum);
@@ -140,8 +140,8 @@
         private System.Windows.Forms.Label labelNum;
         private System.Windows.Forms.NumericUpDown numericUpDownKrat;
         private System.Windows.Forms.NumericUpDown numericUpDownNum;
-        private System.Windows.Forms.TextBox textBoxAnswer;
         private System.Windows.Forms.Button button;
+        private System.Windows.Forms.TextBox textBox;
     }
 }
 
