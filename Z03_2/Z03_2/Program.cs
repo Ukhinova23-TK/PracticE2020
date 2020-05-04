@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Z03_2
 {
@@ -28,12 +24,22 @@ namespace Z03_2
         {
             try
             {
-                Console.Write("Начало интервала: ");
-                double a = Convert.ToDouble(Console.ReadLine());
-                Console.Write("Конец интервала: ");
-                double b = Convert.ToDouble(Console.ReadLine());
-                Console.Write("Шаг интервала: ");
-                double h = Convert.ToDouble(Console.ReadLine());
+                double a, b, h;
+                try
+                {
+                    Console.Write("Начало интервала: ");
+                    a = Convert.ToDouble(Console.ReadLine());
+                    Console.Write("Конец интервала: ");
+                    b = Convert.ToDouble(Console.ReadLine());
+                    Console.Write("Шаг интервала: ");
+                    h = Convert.ToDouble(Console.ReadLine());
+                }
+                catch
+                {
+                    Console.WriteLine("Неверные данные");
+                    Console.ReadKey();
+                    return;
+                }
                 if (a <= b && h>0)
                 {
                     for (double i = a; i <= b; i += h)
@@ -43,7 +49,7 @@ namespace Z03_2
                 }
                 else
                 {
-                    Console.WriteLine("Начало интервала не может быть больше конца, шаг не может быть отриательным");
+                    Console.WriteLine("Начало интервала не может быть больше конца, шаг не может быть отриательным и больше нуля");
                 }
                 Console.ReadKey();
             }
