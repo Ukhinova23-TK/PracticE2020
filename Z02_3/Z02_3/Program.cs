@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Z02_3
 {
@@ -12,10 +8,20 @@ namespace Z02_3
         {
             try
             {
-                Console.Write("Начало диапазона: ");
-                int A = Convert.ToInt32(Console.ReadLine());
-                Console.Write("Конец диапазона: ");
-                int B = Convert.ToInt32(Console.ReadLine());
+                int A, B;
+                try
+                {
+                    Console.Write("Начало диапазона: ");
+                    A = Convert.ToInt32(Console.ReadLine());
+                    Console.Write("Конец диапазона: ");
+                    B = Convert.ToInt32(Console.ReadLine());
+                }
+                catch
+                {
+                    Console.WriteLine("Неверные данные");
+                    Console.ReadKey();
+                    return;
+                }
                 if (A <= B)
                 {
                     for (int i = A; i <= B; i++)

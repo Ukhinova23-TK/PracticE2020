@@ -5,3 +5,10 @@ D:\Колледж\ПП ПМ01\Z02_3\Z02_3\obj\Debug\Z02_3.csprojAssemblyReferenc
 D:\Колледж\ПП ПМ01\Z02_3\Z02_3\obj\Debug\Z02_3.csproj.CoreCompileInputs.cache
 D:\Колледж\ПП ПМ01\Z02_3\Z02_3\obj\Debug\Z02_3.exe
 D:\Колледж\ПП ПМ01\Z02_3\Z02_3\obj\Debug\Z02_3.pdb
+D:\College\PP_PM01\Z02_3\Z02_3\bin\Debug\Z02_3.exe.config
+D:\College\PP_PM01\Z02_3\Z02_3\bin\Debug\Z02_3.exe
+D:\College\PP_PM01\Z02_3\Z02_3\bin\Debug\Z02_3.pdb
+D:\College\PP_PM01\Z02_3\Z02_3\obj\Debug\Z02_3.csprojAssemblyReference.cache
+D:\College\PP_PM01\Z02_3\Z02_3\obj\Debug\Z02_3.csproj.CoreCompileInputs.cache
+D:\College\PP_PM01\Z02_3\Z02_3\obj\Debug\Z02_3.exe
+D:\College\PP_PM01\Z02_3\Z02_3\obj\Debug\Z02_3.pdb
