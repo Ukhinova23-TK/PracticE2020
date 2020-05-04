@@ -1,0 +1,7 @@
+D:\Колледж\ПП ПМ01\Z03_3\Z03_3\bin\Debug\Z03_3.exe.config
+D:\Колледж\ПП ПМ01\Z03_3\Z03_3\bin\Debug\Z03_3.exe
+D:\Колледж\ПП ПМ01\Z03_3\Z03_3\bin\Debug\Z03_3.pdb
+D:\Колледж\ПП ПМ01\Z03_3\Z03_3\obj\Debug\Z03_3.csprojAssemblyReference.cache
+D:\Колледж\ПП ПМ01\Z03_3\Z03_3\obj\Debug\Z03_3.csproj.CoreCompileInputs.cache
+D:\Колледж\ПП ПМ01\Z03_3\Z03_3\obj\Debug\Z03_3.exe
+D:\Колледж\ПП ПМ01\Z03_3\Z03_3\obj\Debug\Z03_3.pdb

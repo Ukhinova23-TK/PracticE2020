@@ -1,0 +1,10 @@
+D:\Колледж\ПП ПМ01\Z02_2_WF\Z02_2_WF\bin\Debug\Z02_2_WF.exe.config
+D:\Колледж\ПП ПМ01\Z02_2_WF\Z02_2_WF\bin\Debug\Z02_2_WF.exe
+D:\Колледж\ПП ПМ01\Z02_2_WF\Z02_2_WF\bin\Debug\Z02_2_WF.pdb
+D:\Колледж\ПП ПМ01\Z02_2_WF\Z02_2_WF\obj\Debug\Z02_2_WF.csprojAssemblyReference.cache
+D:\Колледж\ПП ПМ01\Z02_2_WF\Z02_2_WF\obj\Debug\Z02_2_WF.Form1.resources
+D:\Колледж\ПП ПМ01\Z02_2_WF\Z02_2_WF\obj\Debug\Z02_2_WF.Properties.Resources.resources
+D:\Колледж\ПП ПМ01\Z02_2_WF\Z02_2_WF\obj\Debug\Z02_2_WF.csproj.GenerateResource.cache
+D:\Колледж\ПП ПМ01\Z02_2_WF\Z02_2_WF\obj\Debug\Z02_2_WF.csproj.CoreCompileInputs.cache
+D:\Колледж\ПП ПМ01\Z02_2_WF\Z02_2_WF\obj\Debug\Z02_2_WF.exe
+D:\Колледж\ПП ПМ01\Z02_2_WF\Z02_2_WF\obj\Debug\Z02_2_WF.pdb
