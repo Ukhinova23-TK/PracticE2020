@@ -8,18 +8,28 @@ namespace Z02_2
         {
             try
             {
-                Console.Write("Кличество прошедших месяцев: ");
-                uint months = Convert.ToUInt32(Console.ReadLine());
-                Console.Write("Колиечество прошедших дней: ");
-                uint days = Convert.ToUInt32(Console.ReadLine());
+                uint months, days;
+                try
+                {
+                    Console.Write("Количество прошедших месяцев: ");
+                    months = Convert.ToUInt32(Console.ReadLine());
+                    Console.Write("Количество прошедших дней: ");
+                    days = Convert.ToUInt32(Console.ReadLine());
+                }
+                catch
+                {
+                    Console.WriteLine("Неверные данные");
+                    Console.ReadKey();
+                    return;
+                }
                 if (days > 31)
                 {
                     Console.WriteLine("Максимальное количество вводимых дней не может быть больше максимального количества дней в месяце.");
+                    Console.ReadKey();
                     return;
                 }
                 DateTime date = new DateTime(1990, 1, 1);
-                uint ostm = months % 12;
-                switch (ostm)
+                switch (months%12)
                 {
                     case 0:
                         {
