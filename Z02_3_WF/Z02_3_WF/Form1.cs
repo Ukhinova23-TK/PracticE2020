@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Z02_3_WF
@@ -19,6 +12,9 @@ namespace Z02_3_WF
 
         private void button_Click(object sender, EventArgs e)
         {
+            textBoxDoWhile.Text = "";
+            textBoxDoWhile.Text = "";
+            textBoxFor.Text = "";
             int A = Convert.ToInt32(numericUpDownRun.Value);
             int B = Convert.ToInt32(numericUpDownEnd.Value);
             if (A <= B)
