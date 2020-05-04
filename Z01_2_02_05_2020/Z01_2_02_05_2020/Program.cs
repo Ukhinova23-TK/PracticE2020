@@ -12,11 +12,31 @@ namespace Z01_2_02_05_2020
         {
             int A;
             string num;
-            int sum;
-            Console.Write("Кратность: ");
-            A = Convert.ToInt32(Console.ReadLine());
-            Console.Write("Двузначное число: ");
-            num = Console.ReadLine();
+            int sum, help;
+            try
+            {
+                Console.Write("Кратность: ");
+                A = Convert.ToInt32(Console.ReadLine());
+                if (A == 0)
+                {
+                    Console.WriteLine("Кратность не может быть равна 0");
+                    Console.ReadKey();
+                    return;
+                }
+                Console.Write("Двузначное число: ");
+                help = Convert.ToInt32(Console.ReadLine());
+                if (help < 0)
+                {
+                    help *= -1;
+                }
+            }
+            catch
+            {
+                Console.WriteLine("Неверные данные");
+                Console.ReadKey();
+                return;
+            }
+            num = help.ToString();
             if (num.Length == 2)
             {
                 sum = Convert.ToInt32(num[0].ToString()) + Convert.ToInt32(num[1].ToString());

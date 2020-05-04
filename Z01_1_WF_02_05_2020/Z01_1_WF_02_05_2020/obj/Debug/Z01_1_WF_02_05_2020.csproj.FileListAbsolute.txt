@@ -8,3 +8,13 @@ D:\Колледж\ПП ПМ01\Z01_1_WF_02_05_2020\Z01_1_WF_02_05_2020\obj\Debug\
 D:\Колледж\ПП ПМ01\Z01_1_WF_02_05_2020\Z01_1_WF_02_05_2020\obj\Debug\Z01_1_WF_02_05_2020.csproj.CoreCompileInputs.cache
 D:\Колледж\ПП ПМ01\Z01_1_WF_02_05_2020\Z01_1_WF_02_05_2020\obj\Debug\Z01_1_WF_02_05_2020.exe
 D:\Колледж\ПП ПМ01\Z01_1_WF_02_05_2020\Z01_1_WF_02_05_2020\obj\Debug\Z01_1_WF_02_05_2020.pdb
+D:\College\PP_PM01\Z01_1_WF_02_05_2020\Z01_1_WF_02_05_2020\bin\Debug\Z01_1_WF_02_05_2020.exe.config
+D:\College\PP_PM01\Z01_1_WF_02_05_2020\Z01_1_WF_02_05_2020\bin\Debug\Z01_1_WF_02_05_2020.exe
+D:\College\PP_PM01\Z01_1_WF_02_05_2020\Z01_1_WF_02_05_2020\bin\Debug\Z01_1_WF_02_05_2020.pdb
+D:\College\PP_PM01\Z01_1_WF_02_05_2020\Z01_1_WF_02_05_2020\obj\Debug\Z01_1_WF_02_05_2020.csprojAssemblyReference.cache
+D:\College\PP_PM01\Z01_1_WF_02_05_2020\Z01_1_WF_02_05_2020\obj\Debug\Z01_1_WF_02_05_2020.Form1.resources
+D:\College\PP_PM01\Z01_1_WF_02_05_2020\Z01_1_WF_02_05_2020\obj\Debug\Z01_1_WF_02_05_2020.Properties.Resources.resources
+D:\College\PP_PM01\Z01_1_WF_02_05_2020\Z01_1_WF_02_05_2020\obj\Debug\Z01_1_WF_02_05_2020.csproj.GenerateResource.cache
+D:\College\PP_PM01\Z01_1_WF_02_05_2020\Z01_1_WF_02_05_2020\obj\Debug\Z01_1_WF_02_05_2020.csproj.CoreCompileInputs.cache
+D:\College\PP_PM01\Z01_1_WF_02_05_2020\Z01_1_WF_02_05_2020\obj\Debug\Z01_1_WF_02_05_2020.exe
+D:\College\PP_PM01\Z01_1_WF_02_05_2020\Z01_1_WF_02_05_2020\obj\Debug\Z01_1_WF_02_05_2020.pdb
