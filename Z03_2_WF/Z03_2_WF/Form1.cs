@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Z03_2_WF
@@ -39,7 +32,7 @@ namespace Z03_2_WF
             double a = Convert.ToDouble(numericUpDownRun.Value);
             double b = Convert.ToDouble(numericUpDownEnd.Value);
             double h = Convert.ToDouble(numericUpDownFoot.Value);
-            if (a <= b && h>0)
+            if (a <= b)
             {
                 for (double i = a; i <= b; i += h)
                 {
@@ -48,7 +41,7 @@ namespace Z03_2_WF
             }
             else
             {
-                richTextBoxAnswer.Text = "Начало интервала не может быть больше конца, шаг не может быть отриательным";
+                richTextBoxAnswer.Text = "Начало интервала не может быть больше конца";
             }
         }
     }
