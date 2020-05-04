@@ -24,7 +24,7 @@ namespace Z03_3
             }
         }
 
-        static double F(double x, out double y)
+        static void F(double x, out double y)
         {
             if (x <= 5)
             {
@@ -38,19 +38,28 @@ namespace Z03_3
             {
                 y = 1;
             }
-            return y;
         }
 
         static void Main(string[] args)
         {
             try
             {
-                Console.Write("Начало интервала: ");
-                double a = Convert.ToDouble(Console.ReadLine());
-                Console.Write("Конец интервала: ");
-                double b = Convert.ToDouble(Console.ReadLine());
-                Console.Write("Шаг интервала: ");
-                double h = Convert.ToDouble(Console.ReadLine());
+                double a, b, h;
+                try
+                {
+                    Console.Write("Начало интервала: ");
+                    a = Convert.ToDouble(Console.ReadLine());
+                    Console.Write("Конец интервала: ");
+                    b = Convert.ToDouble(Console.ReadLine());
+                    Console.Write("Шаг интервала: ");
+                    h = Convert.ToDouble(Console.ReadLine());
+                }
+                catch
+                {
+                    Console.WriteLine("Неверные данные");
+                    Console.ReadKey();
+                    return;
+                }
                 if (a <= b && h>0)
                 {
                     for (double i = a; i <= b; i += h)
@@ -61,12 +70,13 @@ namespace Z03_3
                     double y = 0;
                     for (double i = a; i <= b; i += h)
                     {
-                        Console.Write($"f({i}) = {F(i, out y)}\n");
+                        F(i, out y);
+                        Console.Write($"f({i}) = {y}\n");
                     }
                 }
                 else
                 {
-                    Console.WriteLine("Начало интервала не может быть больше конца, шаг не может быть отриательным");
+                    Console.WriteLine("Начало интервала не может быть больше конца, шаг не может быть отриательным и равным нулю");
                 }
                 Console.ReadKey();
 
