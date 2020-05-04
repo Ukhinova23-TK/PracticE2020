@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Z02_2_WF
@@ -22,8 +15,7 @@ namespace Z02_2_WF
             uint months = Convert.ToUInt32(numericUpDownMonths.Value);
             uint days = Convert.ToUInt32(numericUpDownDays.Value);
             DateTime date = new DateTime(1990, 1, 1);
-            uint ostm = months % 12;
-            switch (ostm)
+            switch (months % 12)
             {
                 case 0:
                     {
