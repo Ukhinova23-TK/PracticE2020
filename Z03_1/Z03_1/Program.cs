@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Z03_1
 {
@@ -30,8 +26,18 @@ namespace Z03_1
         {
             try
             {
-                Console.Write("Число: ");
-                int num = Convert.ToInt32(Console.ReadLine());
+                int num;
+                try
+                {
+                    Console.Write("Число: ");
+                    num = Convert.ToInt32(Console.ReadLine());
+                }
+                catch
+                {
+                    Console.WriteLine("Неверные данные");
+                    Console.ReadKey();
+                    return;
+                }
                 Console.Write(F(num));
                 Console.ReadKey();
             }

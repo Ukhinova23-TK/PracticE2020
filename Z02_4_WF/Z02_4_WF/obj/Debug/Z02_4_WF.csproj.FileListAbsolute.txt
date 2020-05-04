@@ -8,3 +8,13 @@ D:\Колледж\ПП ПМ01\Z02_4_WF\Z02_4_WF\obj\Debug\Z02_4_WF.csproj.Genera
 D:\Колледж\ПП ПМ01\Z02_4_WF\Z02_4_WF\obj\Debug\Z02_4_WF.csproj.CoreCompileInputs.cache
 D:\Колледж\ПП ПМ01\Z02_4_WF\Z02_4_WF\obj\Debug\Z02_4_WF.exe
 D:\Колледж\ПП ПМ01\Z02_4_WF\Z02_4_WF\obj\Debug\Z02_4_WF.pdb
+D:\College\PP_PM01\Z02_4_WF\Z02_4_WF\bin\Debug\Z02_4_WF.exe.config
+D:\College\PP_PM01\Z02_4_WF\Z02_4_WF\bin\Debug\Z02_4_WF.exe
+D:\College\PP_PM01\Z02_4_WF\Z02_4_WF\bin\Debug\Z02_4_WF.pdb
+D:\College\PP_PM01\Z02_4_WF\Z02_4_WF\obj\Debug\Z02_4_WF.csprojAssemblyReference.cache
+D:\College\PP_PM01\Z02_4_WF\Z02_4_WF\obj\Debug\Z02_4_WF.Form1.resources
+D:\College\PP_PM01\Z02_4_WF\Z02_4_WF\obj\Debug\Z02_4_WF.Properties.Resources.resources
+D:\College\PP_PM01\Z02_4_WF\Z02_4_WF\obj\Debug\Z02_4_WF.csproj.GenerateResource.cache
+D:\College\PP_PM01\Z02_4_WF\Z02_4_WF\obj\Debug\Z02_4_WF.csproj.CoreCompileInputs.cache
+D:\College\PP_PM01\Z02_4_WF\Z02_4_WF\obj\Debug\Z02_4_WF.exe
+D:\College\PP_PM01\Z02_4_WF\Z02_4_WF\obj\Debug\Z02_4_WF.pdb
