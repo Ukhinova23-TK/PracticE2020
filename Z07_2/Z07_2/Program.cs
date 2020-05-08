@@ -22,7 +22,7 @@ namespace Z07_2
                         }
                     }
                     Console.WriteLine("Самые длинные слова сообщения:");
-                    for (int i = 1; i < str1.Length; i++)
+                    for (int i = 0; i < str1.Length; i++)
                     {
                         if (str1[i].Length == size)
                         {
