@@ -1,0 +1,24 @@
+﻿using System;
+using System.Windows.Forms;
+
+namespace Сommunity
+{
+    public partial class lgotaForm : Form
+    {
+        public lgotaForm()
+        {
+            InitializeComponent();
+        }
+
+        private void lgotaForm_Load(object sender, EventArgs e)
+        {
+            // TODO: данная строка кода позволяет загрузить данные в таблицу "общежитиеDataSet.lgota". При необходимости она может быть перемещена или удалена.
+            this.lgotaTableAdapter.Fill(this.общежитиеDataSet.lgota);
+        }
+
+        private void buttonUpdate_Click(object sender, EventArgs e)
+        {
+            lgotaTableAdapter.Update(общежитиеDataSet);
+        }
+    }
+}
