@@ -30,23 +30,23 @@
         {
             this.components = new System.ComponentModel.Container();
             Microsoft.Reporting.WinForms.ReportDataSource reportDataSource1 = new Microsoft.Reporting.WinForms.ReportDataSource();
-            this.ОбщежитиеDataSet = new Сommunity.ОбщежитиеDataSet();
             this.studentsBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.ОбщежитиеDataSet = new Сommunity.ОбщежитиеDataSet();
             this.studentsTableAdapter = new Сommunity.ОбщежитиеDataSetTableAdapters.studentsTableAdapter();
             this.reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
-            ((System.ComponentModel.ISupportInitialize)(this.ОбщежитиеDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.studentsBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ОбщежитиеDataSet)).BeginInit();
             this.SuspendLayout();
-            // 
-            // ОбщежитиеDataSet
-            // 
-            this.ОбщежитиеDataSet.DataSetName = "ОбщежитиеDataSet";
-            this.ОбщежитиеDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // studentsBindingSource
             // 
             this.studentsBindingSource.DataMember = "students";
             this.studentsBindingSource.DataSource = this.ОбщежитиеDataSet;
+            // 
+            // ОбщежитиеDataSet
+            // 
+            this.ОбщежитиеDataSet.DataSetName = "ОбщежитиеDataSet";
+            this.ОбщежитиеDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // studentsTableAdapter
             // 
@@ -61,6 +61,7 @@
             this.reportViewer1.LocalReport.ReportEmbeddedResource = "Сommunity.Report.rdlc";
             this.reportViewer1.Location = new System.Drawing.Point(0, 0);
             this.reportViewer1.Name = "reportViewer1";
+            this.reportViewer1.ServerReport.BearerToken = null;
             this.reportViewer1.Size = new System.Drawing.Size(800, 450);
             this.reportViewer1.TabIndex = 0;
             // 
@@ -73,8 +74,8 @@
             this.Name = "Otchet";
             this.Text = "Отчет";
             this.Load += new System.EventHandler(this.Otchet_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.ОбщежитиеDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.studentsBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ОбщежитиеDataSet)).EndInit();
             this.ResumeLayout(false);
 
         }
