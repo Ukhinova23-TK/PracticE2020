@@ -1,36 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ClassDiagram MajorVersion="1" MinorVersion="1">
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
   <Class Name="Matrix.Form1">
-    <Position X="6.5" Y="0.5" Width="2.5" />
+    <Position X="4.25" Y="0.5" Width="3.5" />
     <TypeIdentifier>
       <HashCode>nAkAE1AiASAAQxyAIBCAAQN6iQC4ABgABekAJSEEQAU=</HashCode>
       <FileName>Form1.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Matrix.Matrix">
-    <Position X="0.5" Y="0.5" Width="2.5" />
+    <Position X="0.5" Y="0.5" Width="3.5" />
     <TypeIdentifier>
       <HashCode>EAAAEAAAAFAAAIAAYAEAAAAAAQAAAAAAEAAAABBgAAA=</HashCode>
       <FileName>Matrix.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="Matrix.Program">
-    <Position X="0.5" Y="5.25" Width="2.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
-      <FileName>Program.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="Matrix.Properties.Resources">
-    <Position X="3.5" Y="2.5" Width="2.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="Matrix.Properties.Settings">
-    <Position X="3.5" Y="0.5" Width="2.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />
